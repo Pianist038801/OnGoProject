@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "846789090669",
+    "firebase_url": "https://ongo-7120d.firebaseio.com",
+    "project_id": "ongo-7120d",
+    "storage_bucket": "ongo-7120d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846789090669:android:a59460bbef638e74",
+        "android_client_info": {
+          "package_name": "com.traffic.driver.ongoproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846789090669-sm083cmnca53inj94rcbpn6ibrcsn9c6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.traffic.driver.ongoproject",
+            "certificate_hash": "4ba5b9ccc9ec56de88ee8adfaea2e1b173a68580"
+          }
+        },
+        {
+          "client_id": "846789090669-u6q4ivug0e82bu86pu0t44cknscee8uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJtmHogkcR1G0-hcIWQ_Zw-jERVvCk02Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846789090669-u6q4ivug0e82bu86pu0t44cknscee8uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

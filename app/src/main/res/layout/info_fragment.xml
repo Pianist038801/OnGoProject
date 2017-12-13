@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="8dp" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/detail"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txtSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="100sp"/>
+
+        <TextView
+            android:id="@+id/txtSpeedUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/txtSpeed"
+            android:layout_alignTop="@+id/txtSpeed"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/txtSpeed"
+            android:gravity="center_vertical"
+            android:text="score"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/detail"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txtRank"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="100sp"/>
+
+        <TextView
+            android:id="@+id/txtRankUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/txtSpeed"
+            android:layout_alignTop="@+id/txtSpeed"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/txtSpeed"
+            android:gravity="center_vertical"
+            android:text="rank"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
